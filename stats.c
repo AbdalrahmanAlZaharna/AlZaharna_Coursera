@@ -9,13 +9,15 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief This file contains the implementation of various statistical functions for dataset analysis.
  *
- * <Add Extended Description Here>
+ *  It includes functions to find the mean, median, maximum, minimum,
+ *  and sort a given dataset. All functions are declared in stats.h
+ *  and called through print_statistics which outputs the full analysis.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Abdalrahman Al-Zaharna
+ * @date May 8th 2026
  *
  */
 
@@ -37,7 +39,36 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
-
+  print_statistics(test, SIZE);
+  return;
 }
 
 /* Add other Implementation File Code Here */
+
+/* Prints the statistical analysis on the given dataset */
+void print_statistics(unsigned char* array, int length) {
+}
+
+/* Prints the elements of the array */
+void print_array(unsigned char* array, int length) {
+}
+
+/* Finds the median value of the given dataset */
+unsigned char find_median(unsigned char* array, int length) {
+}
+
+/* Finds the average for the dataset */
+unsigned char find_mean(unsigned char* array, int length) {
+}
+
+/* Finds the maximum value of a given array */
+unsigned char find_maximum(unsigned char* array, int length) {
+}
+
+/* Finds the minimum value of a given array */
+unsigned char find_minimum(unsigned char* array, int length) {
+}
+
+/* Sorts the given array from largest to smallest */
+void sort_array(unsigned char* array, int length) {
+}
